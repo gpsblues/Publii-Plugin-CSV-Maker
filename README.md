@@ -46,6 +46,15 @@ The plugin automatically escapes any delimiters typed within fields to ensure co
 
 This ensures that your CSV file is correctly formatted and can be used seamlessly in other applications.
 
+### Remove Plugin or File
+
+Deactivating or removing the plugin does not delete the previously created CSV file. If you want to remove it, you have two options:
+
+- **Delete rows via the plugin interface**: Remove all rows from the plugin interface and sync your website. This will generate an empty CSV file.  
+- **Manual deletion**: Deactivate or remove the plugin, manually delete the created files and sync your website. You will need to delete the file from the server and, if you selected the root folder as the output location, the copy located in `Publii/Tools & Plugins/File Manager/root`.
+
+This ensures that no residual files remain on your system after removal. 
+
 ## Disclaimer
 
 This plugin is an unofficial extension for [Publii CMS](https://getpublii.com/). While every effort has been made to ensure its reliability, I do not assume responsibility for any issues or malfunctions that may occur while using this plugin. 
