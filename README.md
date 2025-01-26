@@ -1,7 +1,7 @@
 # Publii Plugin: CSV Maker
 A plugin to generate and manually edit custom CSV files directly from the Publii interface.
 
-<p><img height="100" alt="publii plugin" title="Plugin icons" src="https://raw.githubusercontent.com/gpsblues/Publii-Plugin-Easy-Htaccess/802bbe1ad69aafd209050b19b37371a913fe547f/.assets/thumbnail.svg"></p>
+<p><img height="100" alt="publii plugin" title="Plugin icons" src="https://raw.githubusercontent.com/gpsblues/Publii-Plugin-CSV-Maker/refs/heads/main/.assets/thumbnail.svg"></p>
 
 ## Features
 
