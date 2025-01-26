@@ -10,7 +10,7 @@
     "useCustomCssForOptions": false,
     "messageInOptions": {
         "type": "info",
-        "text": "This plugin generates a CSV file either in the root directory or in the plugin's subfolder, offering various customization options. It automatically parses the delimiter if typed by the user. It's the perfect solution for creating a simple CSV file directly from the Publii interface, eliminating the hassle of tedious downloads and uploads."
+        "text": "This plugin allows you to create and edit CSV files with ease, offering various customization options. Files can be saved either in the root directory or in the plugin's subfolder. Additionally, the plugin automatically processes delimiters typed within fields, ensuring that CSV standards are met. The plugin automatically escapes any delimiters typed within fields to ensure compliance with CSV standards. More information on https://github.com/gpsblues?tab=repositories."
     },
     "config": [
         {
