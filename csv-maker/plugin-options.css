@@ -1,0 +1,18 @@
+/*
+This file customizes the plugin's style within the CMS Publii.
+It is activated by setting "useCustomCssForOptions": true in plugin.json
+*/
+
+/* Per tema chiaro (default) */
+html[data-theme="default"] .publii-repeater > .publii-repeater-item:nth-child(odd) .publii-repeater-item-field input,
+html[data-theme="default"] .publii-repeater > .publii-repeater-item:nth-child(odd) .publii-repeater-item-field textarea {
+    background-color: #f9f9f9; /* Grigio molto chiaro per tema chiaro */
+    color: #000; /* Testo scuro */
+}
+
+/* Per tema scuro (dark) */
+html[data-theme="dark"] .publii-repeater > .publii-repeater-item:nth-child(odd) .publii-repeater-item-field input,
+html[data-theme="dark"] .publii-repeater > .publii-repeater-item:nth-child(odd) .publii-repeater-item-field textarea {
+    background-color: #333; /* Grigio scuro per tema scuro */
+    color: #fff; /* Testo chiaro */
+}

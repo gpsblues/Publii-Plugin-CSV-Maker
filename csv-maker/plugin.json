@@ -7,7 +7,7 @@
     "scope": "site",
     "minimumPubliiVersion": "0.40.0",
     "usePluginSettingsView": false,
-    "useCustomCssForOptions": false,
+    "useCustomCssForOptions": true,
     "messageInOptions": {
         "type": "info",
         "text": "This plugin allows you to create and edit CSV files with ease, offering various customization options. Files can be saved either in the root directory or in the plugin's subfolder. Additionally, the plugin automatically processes delimiters typed within fields, ensuring that CSV standards are met. The plugin automatically escapes any delimiters typed within fields to ensure compliance with CSV standards. More information on https://github.com/gpsblues?tab=repositories."
