@@ -26,7 +26,7 @@ In the settings section, you can configure the fundamental parameters of the CSV
 - **File name**: Define the name and type of the file.
 - **Save location**: Choose one of the two available options:
   - Root directory of the site (`/`).
-  - Plugin folder (`/input/media/plugin/csv-maker`).
+  - Plugin folder (`/media/plugin/csv-maker`).
 - **Delimiter**: Specify the character to separate values in the CSV file.
 - **Columns**: Set up to a maximum of 10 columns for your file.
 
