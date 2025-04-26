@@ -7,9 +7,9 @@ A plugin to generate and manually edit custom CSV files directly from the Publii
 
 ![Publii plugin screenshot](https://raw.githubusercontent.com/gpsblues/Publii-Plugin-CSV-Maker/refs/heads/main/.assets/screen.png)
 
-This plugin allows you to create and edit CSV files with ease, offering various customization options. Files can be saved either in the root directory or in the plugin's subfolder. Additionally, the plugin automatically processes delimiters typed within fields, ensuring that CSV standards are met. 
+This plugin enables you to effortlessly create and edit **simple CSV files** with various customization options. **Designed primarily for basic data structures** like geographical coordinates (name, latitude, longitude) for small maps or similar simple datasets, it supports **up to 10 columns** and **unlimited rows** of manually entered data. Files can be saved either in your site's root directory or in the plugin's dedicated subfolder. The plugin automatically handles delimiter characters within fields, ensuring proper CSV formatting compliance.
 
-It’s the ideal solution for creating CSV files directly in Publii, eliminating the need for manual downloads and uploads.
+**Note:** This is a manual-entry-only solution - bulk import functionality is not included.
 
 ## Installation and Usage
 
@@ -26,16 +26,22 @@ In the settings section, you can configure the fundamental parameters of the CSV
 - **File name**: Define the name and type of the file.
 - **Save location**: Choose one of the two available options:
   - Root directory of the site (`/`).
-  - Plugin folder (`/input/media/plugin/csv-maker`).
+  - Plugin folder (`/media/plugin/csv-maker`).
 - **Delimiter**: Specify the character to separate values in the CSV file.
 - **Columns**: Set up to a maximum of 10 columns for your file.
 
-## Data
+## Data Management
 
-This section allows you to directly edit the values of your CSV file. You can switch between two display modes for easier editing:
+This **manual-entry-only** section provides direct editing of your CSV values with two display modes for optimal workflow:
 
-- **Compact view ON**:  Displays values side-by-side for a quick overview.
-- **Compact view OFF**: Displays each value on a separate row, which is especially useful for handling longer content.
+- **Compact view ON**: Displays values in a side-by-side layout for quick overview.
+- **Compact view OFF**: Shows each value on a separate line, ideal for working with lengthy content.
+
+**Perfect for**:
+- Simple coordinate lists (name, lat, long)
+- Basic contact information (city, name, phone, ...) 
+- Small catalogs or inventories (product, price, SKU, ...)
+- Other straightforward tabular data
 
 ### Handling Delimiters
 

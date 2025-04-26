@@ -16,3 +16,9 @@ html[data-theme="dark"] .publii-repeater > .publii-repeater-item:nth-child(odd) 
     background-color: #333; /* Grigio scuro per tema scuro */
     color: #fff; /* Testo chiaro */
 }
+
+/* Affianco i div 1% */
+.publii-repeater-item-field[style*="width: 1%"] {
+    flex: 1 0 auto; /* Impedisce ai flex item di ridursi o crescere */
+    white-space: nowrap; /* Impedisce il wrapping del testo */
+}

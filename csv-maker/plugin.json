@@ -3,7 +3,7 @@
     "description": "This plugin create a CSV file in Publii root or subfolder.",
     "license": "GPL-3.0",
     "author": "Vittorio Ramponi - www.mywebpassion.it",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "scope": "site",
     "minimumPubliiVersion": "0.40.0",
     "usePluginSettingsView": false,
@@ -35,7 +35,7 @@
                     "value": "[ROOT-FILES]/"
                 },
                 {
-                    "label": "Plugin ( /input/media/plugin/csv-maker )",
+                    "label": "Plugin ( /media/plugin/csv-maker )",
                     "value": ""
                 }
             ]
@@ -71,7 +71,7 @@
             "name": "columns",
             "label": "Columns",
             "group": "Settings",
-            "value": 10,
+            "value": 1,
             "type": "range",
             "min": "1",
             "max": "10",
@@ -79,672 +79,7 @@
             "note": "Specify the number of columns in the file."
         },
         {
-            "name": "csvData",
-            "label": " ",
-            "group": "CSV data",
-            "type": "repeater",
-            "value": [],
-            "hasEmptyState": false,
-            "hideLabels": true,
-            "translations": {
-                "addItem": "Add row",
-                "duplicateItem": "Duplicate",
-                "emptyState": "Click the button below to add a new row.",
-                "removeItem": "Delete row"
-            },
-            "note": "",
-            "structure": [
-                {
-                    "name": "data1",
-                    "label": "1",
-                    "type": "text",
-                    "value": "",
-                    "width": 10
-                },
-                {
-                    "name": "data2",
-                    "label": "2",
-                    "type": "text",
-                    "value": "",
-                    "width": 10
-                },
-                {
-                    "name": "data3",
-                    "label": "3",
-                    "type": "text",
-                    "value": "",
-                    "width": 10
-                },
-                {
-                    "name": "data4",
-                    "label": "4",
-                    "type": "text",
-                    "value": "",
-                    "width": 10
-                },
-                {
-                    "name": "data5",
-                    "label": "5",
-                    "type": "text",
-                    "value": "",
-                    "width": 10
-                },
-                {
-                    "name": "data6",
-                    "label": "6",
-                    "type": "text",
-                    "value": "",
-                    "width": 10
-                },
-                {
-                    "name": "data7",
-                    "label": "7",
-                    "type": "text",
-                    "value": "",
-                    "width": 10
-                },
-                {
-                    "name": "data8",
-                    "label": "8",
-                    "type": "text",
-                    "value": "",
-                    "width": 10
-                },
-                {
-                    "name": "data9",
-                    "label": "9",
-                    "type": "text",
-                    "value": "",
-                    "width": 10
-                },
-                {
-                    "name": "data10",
-                    "label": "10",
-                    "type": "text",
-                    "value": "",
-                    "width": 10
-                }
-            ],
-            "dependencies": [
-                {
-                    "field": "compact",
-                    "value": true
-                },
-                {
-                    "field": "columns",
-                    "value": "10"
-                }
-            ]
-        },
-        {
-            "name": "csvData",
-            "label": " ",
-            "group": "CSV data",
-            "type": "repeater",
-            "value": [],
-            "hasEmptyState": false,
-            "hideLabels": true,
-            "translations": {
-                "addItem": "Add row",
-                "duplicateItem": "Duplicate",
-                "emptyState": "Click the button below to add a new product to your slider.",
-                "removeItem": "Delete row"
-            },
-            "note": "",
-            "structure": [
-                {
-                    "name": "data1",
-                    "label": "1",
-                    "type": "text",
-                    "value": "",
-                    "width": 11
-                },
-                {
-                    "name": "data2",
-                    "label": "2",
-                    "type": "text",
-                    "value": "",
-                    "width": 11
-                },
-                {
-                    "name": "data3",
-                    "label": "3",
-                    "type": "text",
-                    "value": "",
-                    "width": 11
-                },
-                {
-                    "name": "data4",
-                    "label": "4",
-                    "type": "text",
-                    "value": "",
-                    "width": 11
-                },
-                {
-                    "name": "data5",
-                    "label": "5",
-                    "type": "text",
-                    "value": "",
-                    "width": 11
-                },
-                {
-                    "name": "data6",
-                    "label": "6",
-                    "type": "text",
-                    "value": "",
-                    "width": 11
-                },
-                {
-                    "name": "data7",
-                    "label": "7",
-                    "type": "text",
-                    "value": "",
-                    "width": 11
-                },
-                {
-                    "name": "data8",
-                    "label": "8",
-                    "type": "text",
-                    "value": "",
-                    "width": 11
-                },
-                {
-                    "name": "data9",
-                    "label": "9",
-                    "type": "text",
-                    "value": "",
-                    "width": 11
-                }
-            ],
-            "dependencies": [
-                {
-                    "field": "compact",
-                    "value": true
-                },
-                {
-                    "field": "columns",
-                    "value": "9"
-                }
-            ]
-        },
-        {
-            "name": "csvData",
-            "label": " ",
-            "group": "CSV data",
-            "type": "repeater",
-            "value": [],
-            "hasEmptyState": false,
-            "hideLabels": true,
-            "translations": {
-                "addItem": "Add row",
-                "duplicateItem": "Duplicate",
-                "emptyState": "Click the button below to add a new product to your slider.",
-                "removeItem": "Delete row"
-            },
-            "note": "",
-            "structure": [
-                {
-                    "name": "data1",
-                    "label": "1",
-                    "type": "text",
-                    "value": "",
-                    "width": 12
-                },
-                {
-                    "name": "data2",
-                    "label": "2",
-                    "type": "text",
-                    "value": "",
-                    "width": 12
-                },
-                {
-                    "name": "data3",
-                    "label": "3",
-                    "type": "text",
-                    "value": "",
-                    "width": 12
-                },
-                {
-                    "name": "data4",
-                    "label": "4",
-                    "type": "text",
-                    "value": "",
-                    "width": 12
-                },
-                {
-                    "name": "data5",
-                    "label": "5",
-                    "type": "text",
-                    "value": "",
-                    "width": 12
-                },
-                {
-                    "name": "data6",
-                    "label": "6",
-                    "type": "text",
-                    "value": "",
-                    "width": 12
-                },
-                {
-                    "name": "data7",
-                    "label": "7",
-                    "type": "text",
-                    "value": "",
-                    "width": 12
-                },
-                {
-                    "name": "data8",
-                    "label": "8",
-                    "type": "text",
-                    "value": "",
-                    "width": 12
-                }
-            ],
-            "dependencies": [
-                {
-                    "field": "compact",
-                    "value": true
-                },
-                {
-                    "field": "columns",
-                    "value": "8"
-                }
-            ]
-        },
-        {
-            "name": "csvData",
-            "label": " ",
-            "group": "CSV data",
-            "type": "repeater",
-            "value": [],
-            "hasEmptyState": false,
-            "hideLabels": true,
-            "translations": {
-                "addItem": "Add row",
-                "duplicateItem": "Duplicate",
-                "emptyState": "Click the button below to add a new product to your slider.",
-                "removeItem": "Delete row"
-            },
-            "note": "",
-            "structure": [
-                {
-                    "name": "data1",
-                    "label": "1",
-                    "type": "text",
-                    "value": "",
-                    "width": 14
-                },
-                {
-                    "name": "data2",
-                    "label": "2",
-                    "type": "text",
-                    "value": "",
-                    "width": 14
-                },
-                {
-                    "name": "data3",
-                    "label": "3",
-                    "type": "text",
-                    "value": "",
-                    "width": 14
-                },
-                {
-                    "name": "data4",
-                    "label": "4",
-                    "type": "text",
-                    "value": "",
-                    "width": 14
-                },
-                {
-                    "name": "data5",
-                    "label": "5",
-                    "type": "text",
-                    "value": "",
-                    "width": 14
-                },
-                {
-                    "name": "data6",
-                    "label": "6",
-                    "type": "text",
-                    "value": "",
-                    "width": 14
-                },
-                {
-                    "name": "data7",
-                    "label": "7",
-                    "type": "text",
-                    "value": "",
-                    "width": 14
-                }
-            ],
-            "dependencies": [
-                {
-                    "field": "compact",
-                    "value": true
-                },
-                {
-                    "field": "columns",
-                    "value": "7"
-                }
-            ]
-        },
-        {
-            "name": "csvData",
-            "label": " ",
-            "group": "CSV data",
-            "type": "repeater",
-            "value": [],
-            "hasEmptyState": false,
-            "hideLabels": true,
-            "translations": {
-                "addItem": "Add row",
-                "duplicateItem": "Duplicate",
-                "emptyState": "Click the button below to add a new product to your slider.",
-                "removeItem": "Delete row"
-            },
-            "note": "",
-            "structure": [
-                {
-                    "name": "data1",
-                    "label": "1",
-                    "type": "text",
-                    "value": "",
-                    "width": 16
-                },
-                {
-                    "name": "data2",
-                    "label": "2",
-                    "type": "text",
-                    "value": "",
-                    "width": 16
-                },
-                {
-                    "name": "data3",
-                    "label": "3",
-                    "type": "text",
-                    "value": "",
-                    "width": 16
-                },
-                {
-                    "name": "data4",
-                    "label": "4",
-                    "type": "text",
-                    "value": "",
-                    "width": 16
-                },
-                {
-                    "name": "data5",
-                    "label": "5",
-                    "type": "text",
-                    "value": "",
-                    "width": 16
-                },
-                {
-                    "name": "data6",
-                    "label": "6",
-                    "type": "text",
-                    "value": "",
-                    "width": 16
-                }
-            ],
-            "dependencies": [
-                {
-                    "field": "compact",
-                    "value": true
-                },
-                {
-                    "field": "columns",
-                    "value": "6"
-                }
-            ]
-        },
-        {
-            "name": "csvData",
-            "label": " ",
-            "group": "CSV data",
-            "type": "repeater",
-            "value": [],
-            "hasEmptyState": false,
-            "hideLabels": true,
-            "translations": {
-                "addItem": "Add row",
-                "duplicateItem": "Duplicate",
-                "emptyState": "Click the button below to add a new product to your slider.",
-                "removeItem": "Delete row"
-            },
-            "note": "",
-            "structure": [
-                {
-                    "name": "data1",
-                    "label": "1",
-                    "type": "text",
-                    "value": "",
-                    "width": 20
-                },
-                {
-                    "name": "data2",
-                    "label": "2",
-                    "type": "text",
-                    "value": "",
-                    "width": 20
-                },
-                {
-                    "name": "data3",
-                    "label": "3",
-                    "type": "text",
-                    "value": "",
-                    "width": 20
-                },
-                {
-                    "name": "data4",
-                    "label": "4",
-                    "type": "text",
-                    "value": "",
-                    "width": 20
-                },
-                {
-                    "name": "data5",
-                    "label": "5",
-                    "type": "text",
-                    "value": "",
-                    "width": 20
-                }
-            ],
-            "dependencies": [
-                {
-                    "field": "compact",
-                    "value": true
-                },
-                {
-                    "field": "columns",
-                    "value": "5"
-                }
-            ]
-        },
-        {
-            "name": "csvData",
-            "label": " ",
-            "group": "CSV data",
-            "type": "repeater",
-            "value": [],
-            "hasEmptyState": false,
-            "hideLabels": true,
-            "translations": {
-                "addItem": "Add row",
-                "duplicateItem": "Duplicate",
-                "emptyState": "Click the button below to add a new product to your slider.",
-                "removeItem": "Delete row"
-            },
-            "note": "",
-            "structure": [
-                {
-                    "name": "data1",
-                    "label": "1",
-                    "type": "text",
-                    "value": "",
-                    "width": 25
-                },
-                {
-                    "name": "data2",
-                    "label": "2",
-                    "type": "text",
-                    "value": "",
-                    "width": 25
-                },
-                {
-                    "name": "data3",
-                    "label": "3",
-                    "type": "text",
-                    "value": "",
-                    "width": 25
-                },
-                {
-                    "name": "data4",
-                    "label": "4",
-                    "type": "text",
-                    "value": "",
-                    "width": 25
-                }
-            ],
-            "dependencies": [
-                {
-                    "field": "compact",
-                    "value": true
-                },
-                {
-                    "field": "columns",
-                    "value": "4"
-                }
-            ]
-        },
-        {
-            "name": "csvData",
-            "label": " ",
-            "group": "CSV data",
-            "type": "repeater",
-            "value": [],
-            "hasEmptyState": false,
-            "hideLabels": true,
-            "translations": {
-                "addItem": "Add row",
-                "duplicateItem": "Duplicate",
-                "emptyState": "Click the button below to add a new product to your slider.",
-                "removeItem": "Delete row"
-            },
-            "note": "",
-            "structure": [
-                {
-                    "name": "data1",
-                    "label": "1",
-                    "type": "text",
-                    "value": "",
-                    "width": 33
-                },
-                {
-                    "name": "data2",
-                    "label": "2",
-                    "type": "text",
-                    "value": "",
-                    "width": 33
-                },
-                {
-                    "name": "data3",
-                    "label": "3",
-                    "type": "text",
-                    "value": "",
-                    "width": 33
-                }
-            ],
-            "dependencies": [
-                {
-                    "field": "compact",
-                    "value": true
-                },
-                {
-                    "field": "columns",
-                    "value": "3"
-                }
-            ]
-        },
-        {
-            "name": "csvData",
-            "label": " ",
-            "group": "CSV data",
-            "type": "repeater",
-            "value": [],
-            "hasEmptyState": false,
-            "hideLabels": true,
-            "translations": {
-                "addItem": "Add row",
-                "duplicateItem": "Duplicate",
-                "emptyState": "Click the button below to add a new product to your slider.",
-                "removeItem": "Delete row"
-            },
-            "note": "",
-            "structure": [
-                {
-                    "name": "data1",
-                    "label": "1",
-                    "type": "text",
-                    "value": "",
-                    "width": 50
-                },
-                {
-                    "name": "data2",
-                    "label": "2",
-                    "type": "text",
-                    "value": "",
-                    "width": 50
-                }
-            ],
-            "dependencies": [
-                {
-                    "field": "compact",
-                    "value": true
-                },
-                {
-                    "field": "columns",
-                    "value": "2"
-                }
-            ]
-        },
-        {
-            "name": "csvData",
-            "label": " ",
-            "group": "CSV data",
-            "type": "repeater",
-            "value": [],
-            "hasEmptyState": false,
-            "hideLabels": true,
-            "translations": {
-                "addItem": "Add row",
-                "duplicateItem": "Duplicate",
-                "emptyState": "Click the button below to add a new product to your slider.",
-                "removeItem": "Delete row"
-            },
-            "note": "",
-            "structure": [
-                {
-                    "name": "data1",
-                    "label": "1",
-                    "type": "text",
-                    "value": "",
-                    "width": 100
-                }
-            ],
-            "dependencies": [
-                {
-                    "field": "compact",
-                    "value": true
-                },
-                {
-                    "field": "columns",
-                    "value": "1"
-                }
-            ]
-        },
-        {
-            "name": "csvData",
+            "name": "csvDataCompact",
             "label": " ",
             "group": "CSV data",
             "type": "repeater",
@@ -765,7 +100,7 @@
                     "type": "textarea",
                     "cols": 1,
                     "value": "",
-                    "width": 100
+                    "width": 1
                 },
                 {
                     "name": "data2",
@@ -773,7 +108,14 @@
                     "type": "textarea",
                     "cols": 1,
                     "value": "",
-                    "width": 100
+                    "width": 1,
+                    "dependencies": [
+                        {
+                            "field": "columns",
+                            "value": "2,3,4,5,6,7,8,9,10",
+                            "type": "externalOption"
+                        }
+                    ]
                 },
                 {
                     "name": "data3",
@@ -781,7 +123,14 @@
                     "type": "textarea",
                     "cols": 1,
                     "value": "",
-                    "width": 100
+                    "width": 1,
+                    "dependencies": [
+                        {
+                            "field": "columns",
+                            "value": "3,4,5,6,7,8,9,10",
+                            "type": "externalOption"
+                        }
+                    ]
                 },
                 {
                     "name": "data4",
@@ -789,7 +138,14 @@
                     "type": "textarea",
                     "cols": 1,
                     "value": "",
-                    "width": 100
+                    "width": 1,
+                    "dependencies": [
+                        {
+                            "field": "columns",
+                            "value": "4,5,6,7,8,9,10",
+                            "type": "externalOption"
+                        }
+                    ]
                 },
                 {
                     "name": "data5",
@@ -797,7 +153,14 @@
                     "type": "textarea",
                     "cols": 1,
                     "value": "",
-                    "width": 100
+                    "width": 1,
+                    "dependencies": [
+                        {
+                            "field": "columns",
+                            "value": "5,6,7,8,9,10",
+                            "type": "externalOption"
+                        }
+                    ]
                 },
                 {
                     "name": "data6",
@@ -805,7 +168,14 @@
                     "type": "textarea",
                     "cols": 1,
                     "value": "",
-                    "width": 100
+                    "width": 1,
+                    "dependencies": [
+                        {
+                            "field": "columns",
+                            "value": "6,7,8,9,10",
+                            "type": "externalOption"
+                        }
+                    ]
                 },
                 {
                     "name": "data7",
@@ -813,7 +183,14 @@
                     "type": "textarea",
                     "cols": 1,
                     "value": "",
-                    "width": 100
+                    "width": 1,
+                    "dependencies": [
+                        {
+                            "field": "columns",
+                            "value": "7,8,9,10",
+                            "type": "externalOption"
+                        }
+                    ]
                 },
                 {
                     "name": "data8",
@@ -821,7 +198,14 @@
                     "type": "textarea",
                     "cols": 1,
                     "value": "",
-                    "width": 100
+                    "width": 1,
+                    "dependencies": [
+                        {
+                            "field": "columns",
+                            "value": "8,9,10",
+                            "type": "externalOption"
+                        }
+                    ]
                 },
                 {
                     "name": "data9",
@@ -829,7 +213,14 @@
                     "type": "textarea",
                     "cols": 1,
                     "value": "",
-                    "width": 100
+                    "width": 1,
+                    "dependencies": [
+                        {
+                            "field": "columns",
+                            "value": "9,10",
+                            "type": "externalOption"
+                        }
+                    ]
                 },
                 {
                     "name": "data10",
@@ -837,27 +228,25 @@
                     "type": "textarea",
                     "cols": 1,
                     "value": "",
-                    "width": 100
-                },
-                {
-                    "name": "separator",
-                    "label": ":::::",
-                    "type": "separator"
+                    "width": 1,
+                    "dependencies": [
+                        {
+                            "field": "columns",
+                            "value": "10",
+                            "type": "externalOption"
+                        }
+                    ]
                 }
             ],
             "dependencies": [
                 {
                     "field": "compact",
-                    "value": false
-                },
-                {
-                    "field": "columns",
-                    "value": "10"
+                    "value": true
                 }
             ]
         },
         {
-            "name": "csvData",
+            "name": "csvDataFull",
             "label": " ",
             "group": "CSV data",
             "type": "repeater",
@@ -886,7 +275,14 @@
                     "type": "textarea",
                     "cols": 1,
                     "value": "",
-                    "width": 100
+                    "width": 100,
+                    "dependencies": [
+                        {
+                            "field": "columns",
+                            "value": "2,3,4,5,6,7,8,9,10",
+                            "type": "externalOption"
+                        }
+                    ]
                 },
                 {
                     "name": "data3",
@@ -894,7 +290,14 @@
                     "type": "textarea",
                     "cols": 1,
                     "value": "",
-                    "width": 100
+                    "width": 100,
+                    "dependencies": [
+                        {
+                            "field": "columns",
+                            "value": "3,4,5,6,7,8,9,10",
+                            "type": "externalOption"
+                        }
+                    ]
                 },
                 {
                     "name": "data4",
@@ -902,7 +305,14 @@
                     "type": "textarea",
                     "cols": 1,
                     "value": "",
-                    "width": 100
+                    "width": 100,
+                    "dependencies": [
+                        {
+                            "field": "columns",
+                            "value": "4,5,6,7,8,9,10",
+                            "type": "externalOption"
+                        }
+                    ]
                 },
                 {
                     "name": "data5",
@@ -910,7 +320,14 @@
                     "type": "textarea",
                     "cols": 1,
                     "value": "",
-                    "width": 100
+                    "width": 100,
+                    "dependencies": [
+                        {
+                            "field": "columns",
+                            "value": "5,6,7,8,9,10",
+                            "type": "externalOption"
+                        }
+                    ]
                 },
                 {
                     "name": "data6",
@@ -918,7 +335,14 @@
                     "type": "textarea",
                     "cols": 1,
                     "value": "",
-                    "width": 100
+                    "width": 100,
+                    "dependencies": [
+                        {
+                            "field": "columns",
+                            "value": "6,7,8,9,10",
+                            "type": "externalOption"
+                        }
+                    ]
                 },
                 {
                     "name": "data7",
@@ -926,7 +350,14 @@
                     "type": "textarea",
                     "cols": 1,
                     "value": "",
-                    "width": 100
+                    "width": 100,
+                    "dependencies": [
+                        {
+                            "field": "columns",
+                            "value": "7,8,9,10",
+                            "type": "externalOption"
+                        }
+                    ]
                 },
                 {
                     "name": "data8",
@@ -934,7 +365,14 @@
                     "type": "textarea",
                     "cols": 1,
                     "value": "",
-                    "width": 100
+                    "width": 100,
+                    "dependencies": [
+                        {
+                            "field": "columns",
+                            "value": "8,9,10",
+                            "type": "externalOption"
+                        }
+                    ]
                 },
                 {
                     "name": "data9",
@@ -942,7 +380,29 @@
                     "type": "textarea",
                     "cols": 1,
                     "value": "",
-                    "width": 100
+                    "width": 100,
+                    "dependencies": [
+                        {
+                            "field": "columns",
+                            "value": "9,10",
+                            "type": "externalOption"
+                        }
+                    ]
+                },
+                {
+                    "name": "data10",
+                    "label": "10",
+                    "type": "textarea",
+                    "cols": 1,
+                    "value": "",
+                    "width": 100,
+                    "dependencies": [
+                        {
+                            "field": "columns",
+                            "value": "10",
+                            "type": "externalOption"
+                        }
+                    ]
                 },
                 {
                     "name": "separator",
@@ -954,562 +414,6 @@
                 {
                     "field": "compact",
                     "value": false
-                },
-                {
-                    "field": "columns",
-                    "value": "9"
-                }
-            ]
-        },
-        {
-            "name": "csvData",
-            "label": " ",
-            "group": "CSV data",
-            "type": "repeater",
-            "value": [],
-            "hasEmptyState": false,
-            "hideLabels": false,
-            "translations": {
-                "addItem": "Add row",
-                "duplicateItem": "Duplicate",
-                "emptyState": "Click the button below to add a new product to your slider.",
-                "removeItem": "Delete row"
-            },
-            "note": "",
-            "structure": [
-                {
-                    "name": "data1",
-                    "label": "1",
-                    "type": "textarea",
-                    "cols": 1,
-                    "value": "",
-                    "width": 100
-                },
-                {
-                    "name": "data2",
-                    "label": "2",
-                    "type": "textarea",
-                    "cols": 1,
-                    "value": "",
-                    "width": 100
-                },
-                {
-                    "name": "data3",
-                    "label": "3",
-                    "type": "textarea",
-                    "cols": 1,
-                    "value": "",
-                    "width": 100
-                },
-                {
-                    "name": "data4",
-                    "label": "4",
-                    "type": "textarea",
-                    "cols": 1,
-                    "value": "",
-                    "width": 100
-                },
-                {
-                    "name": "data5",
-                    "label": "5",
-                    "type": "textarea",
-                    "cols": 1,
-                    "value": "",
-                    "width": 100
-                },
-                {
-                    "name": "data6",
-                    "label": "6",
-                    "type": "textarea",
-                    "cols": 1,
-                    "value": "",
-                    "width": 100
-                },
-                {
-                    "name": "data7",
-                    "label": "7",
-                    "type": "textarea",
-                    "cols": 1,
-                    "value": "",
-                    "width": 100
-                },
-                {
-                    "name": "data8",
-                    "label": "8",
-                    "type": "textarea",
-                    "cols": 1,
-                    "value": "",
-                    "width": 100
-                },
-                {
-                    "name": "separator",
-                    "label": ":::::",
-                    "type": "separator"
-                }
-            ],
-            "dependencies": [
-                {
-                    "field": "compact",
-                    "value": false
-                },
-                {
-                    "field": "columns",
-                    "value": "8"
-                }
-            ]
-        },
-        {
-            "name": "csvData",
-            "label": " ",
-            "group": "CSV data",
-            "type": "repeater",
-            "value": [],
-            "hasEmptyState": false,
-            "hideLabels": false,
-            "translations": {
-                "addItem": "Add row",
-                "duplicateItem": "Duplicate",
-                "emptyState": "Click the button below to add a new product to your slider.",
-                "removeItem": "Delete row"
-            },
-            "note": "",
-            "structure": [
-                {
-                    "name": "data1",
-                    "label": "1",
-                    "type": "textarea",
-                    "cols": 1,
-                    "value": "",
-                    "width": 100
-                },
-                {
-                    "name": "data2",
-                    "label": "2",
-                    "type": "textarea",
-                    "cols": 1,
-                    "value": "",
-                    "width": 100
-                },
-                {
-                    "name": "data3",
-                    "label": "3",
-                    "type": "textarea",
-                    "cols": 1,
-                    "value": "",
-                    "width": 100
-                },
-                {
-                    "name": "data4",
-                    "label": "4",
-                    "type": "textarea",
-                    "cols": 1,
-                    "value": "",
-                    "width": 100
-                },
-                {
-                    "name": "data5",
-                    "label": "5",
-                    "type": "textarea",
-                    "cols": 1,
-                    "value": "",
-                    "width": 100
-                },
-                {
-                    "name": "data6",
-                    "label": "6",
-                    "type": "textarea",
-                    "cols": 1,
-                    "value": "",
-                    "width": 100
-                },
-                {
-                    "name": "data7",
-                    "label": "7",
-                    "type": "textarea",
-                    "cols": 1,
-                    "value": "",
-                    "width": 100
-                },
-                {
-                    "name": "separator",
-                    "label": ":::::",
-                    "type": "separator"
-                }
-            ],
-            "dependencies": [
-                {
-                    "field": "compact",
-                    "value": false
-                },
-                {
-                    "field": "columns",
-                    "value": "7"
-                }
-            ]
-        },
-        {
-            "name": "csvData",
-            "label": " ",
-            "group": "CSV data",
-            "type": "repeater",
-            "value": [],
-            "hasEmptyState": false,
-            "hideLabels": false,
-            "translations": {
-                "addItem": "Add row",
-                "duplicateItem": "Duplicate",
-                "emptyState": "Click the button below to add a new product to your slider.",
-                "removeItem": "Delete row"
-            },
-            "note": "",
-            "structure": [
-                {
-                    "name": "data1",
-                    "label": "1",
-                    "type": "textarea",
-                    "cols": 1,
-                    "value": "",
-                    "width": 100
-                },
-                {
-                    "name": "data2",
-                    "label": "2",
-                    "type": "textarea",
-                    "cols": 1,
-                    "value": "",
-                    "width": 100
-                },
-                {
-                    "name": "data3",
-                    "label": "3",
-                    "type": "textarea",
-                    "cols": 1,
-                    "value": "",
-                    "width": 100
-                },
-                {
-                    "name": "data4",
-                    "label": "4",
-                    "type": "textarea",
-                    "cols": 1,
-                    "value": "",
-                    "width": 100
-                },
-                {
-                    "name": "data5",
-                    "label": "5",
-                    "type": "textarea",
-                    "cols": 1,
-                    "value": "",
-                    "width": 100
-                },
-                {
-                    "name": "data6",
-                    "label": "6",
-                    "type": "textarea",
-                    "cols": 1,
-                    "value": "",
-                    "width": 100
-                },
-                {
-                    "name": "separator",
-                    "label": ":::::",
-                    "type": "separator"
-                }
-            ],
-            "dependencies": [
-                {
-                    "field": "compact",
-                    "value": false
-                },
-                {
-                    "field": "columns",
-                    "value": "6"
-                }
-            ]
-        },
-        {
-            "name": "csvData",
-            "label": " ",
-            "group": "CSV data",
-            "type": "repeater",
-            "value": [],
-            "hasEmptyState": false,
-            "hideLabels": false,
-            "translations": {
-                "addItem": "Add row",
-                "duplicateItem": "Duplicate",
-                "emptyState": "Click the button below to add a new product to your slider.",
-                "removeItem": "Delete row"
-            },
-            "note": "",
-            "structure": [
-                {
-                    "name": "data1",
-                    "label": "1",
-                    "type": "textarea",
-                    "cols": 1,
-                    "value": "",
-                    "width": 100
-                },
-                {
-                    "name": "data2",
-                    "label": "2",
-                    "type": "textarea",
-                    "cols": 1,
-                    "value": "",
-                    "width": 100
-                },
-                {
-                    "name": "data3",
-                    "label": "3",
-                    "type": "textarea",
-                    "cols": 1,
-                    "value": "",
-                    "width": 100
-                },
-                {
-                    "name": "data4",
-                    "label": "4",
-                    "type": "textarea",
-                    "cols": 1,
-                    "value": "",
-                    "width": 100
-                },
-                {
-                    "name": "data5",
-                    "label": "5",
-                    "type": "textarea",
-                    "cols": 1,
-                    "value": "",
-                    "width": 100
-                },
-                {
-                    "name": "separator",
-                    "label": ":::::",
-                    "type": "separator"
-                }
-            ],
-            "dependencies": [
-                {
-                    "field": "compact",
-                    "value": false
-                },
-                {
-                    "field": "columns",
-                    "value": "5"
-                }
-            ]
-        },
-        {
-            "name": "csvData",
-            "label": " ",
-            "group": "CSV data",
-            "type": "repeater",
-            "value": [],
-            "hasEmptyState": false,
-            "hideLabels": false,
-            "translations": {
-                "addItem": "Add row",
-                "duplicateItem": "Duplicate",
-                "emptyState": "Click the button below to add a new product to your slider.",
-                "removeItem": "Delete row"
-            },
-            "note": "",
-            "structure": [
-                {
-                    "name": "data1",
-                    "label": "1",
-                    "type": "textarea",
-                    "cols": 1,
-                    "value": "",
-                    "width": 100
-                },
-                {
-                    "name": "data2",
-                    "label": "2",
-                    "type": "textarea",
-                    "cols": 1,
-                    "value": "",
-                    "width": 100
-                },
-                {
-                    "name": "data3",
-                    "label": "3",
-                    "type": "textarea",
-                    "cols": 1,
-                    "value": "",
-                    "width": 100
-                },
-                {
-                    "name": "data4",
-                    "label": "4",
-                    "type": "textarea",
-                    "cols": 1,
-                    "value": "",
-                    "width": 100
-                },
-                {
-                    "name": "separator",
-                    "label": ":::::",
-                    "type": "separator"
-                }
-            ],
-            "dependencies": [
-                {
-                    "field": "compact",
-                    "value": false
-                },
-                {
-                    "field": "columns",
-                    "value": "4"
-                }
-            ]
-        },
-        {
-            "name": "csvData",
-            "label": " ",
-            "group": "CSV data",
-            "type": "repeater",
-            "value": [],
-            "hasEmptyState": false,
-            "hideLabels": false,
-            "translations": {
-                "addItem": "Add row",
-                "duplicateItem": "Duplicate",
-                "emptyState": "Click the button below to add a new product to your slider.",
-                "removeItem": "Delete row"
-            },
-            "note": "",
-            "structure": [
-                {
-                    "name": "data1",
-                    "label": "1",
-                    "type": "textarea",
-                    "cols": 1,
-                    "value": "",
-                    "width": 100
-                },
-                {
-                    "name": "data2",
-                    "label": "2",
-                    "type": "textarea",
-                    "cols": 1,
-                    "value": "",
-                    "width": 100
-                },
-                {
-                    "name": "data3",
-                    "label": "3",
-                    "type": "textarea",
-                    "cols": 1,
-                    "value": "",
-                    "width": 100
-                },
-                {
-                    "name": "separator",
-                    "label": ":::::",
-                    "type": "separator"
-                }
-            ],
-            "dependencies": [
-                {
-                    "field": "compact",
-                    "value": false
-                },
-                {
-                    "field": "columns",
-                    "value": "3"
-                }
-            ]
-        },
-        {
-            "name": "csvData",
-            "label": " ",
-            "group": "CSV data",
-            "type": "repeater",
-            "value": [],
-            "hasEmptyState": false,
-            "hideLabels": false,
-            "translations": {
-                "addItem": "Add row",
-                "duplicateItem": "Duplicate",
-                "emptyState": "Click the button below to add a new product to your slider.",
-                "removeItem": "Delete row"
-            },
-            "note": "",
-            "structure": [
-                {
-                    "name": "data1",
-                    "label": "1",
-                    "type": "textarea",
-                    "cols": 1,
-                    "value": "",
-                    "width": 100
-                },
-                {
-                    "name": "data2",
-                    "label": "2",
-                    "type": "textarea",
-                    "cols": 1,
-                    "value": "",
-                    "width": 100
-                },
-                {
-                    "name": "separator",
-                    "label": ":::::",
-                    "type": "separator"
-                }
-            ],
-            "dependencies": [
-                {
-                    "field": "compact",
-                    "value": false
-                },
-                {
-                    "field": "columns",
-                    "value": "2"
-                }
-            ]
-        },
-        {
-            "name": "csvData",
-            "label": " ",
-            "group": "CSV data",
-            "type": "repeater",
-            "value": [],
-            "hasEmptyState": false,
-            "hideLabels": false,
-            "translations": {
-                "addItem": "Add row",
-                "duplicateItem": "Duplicate",
-                "emptyState": "Click the button below to add a new product to your slider.",
-                "removeItem": "Delete row"
-            },
-            "note": "",
-            "structure": [
-                {
-                    "name": "data1",
-                    "label": "1",
-                    "type": "textarea",
-                    "cols": 1,
-                    "value": "",
-                    "width": 1000
-                },
-                {
-                    "name": "separator",
-                    "label": ":::::",
-                    "type": "separator"
-                }
-            ],
-            "dependencies": [
-                {
-                    "field": "compact",
-                    "value": false
-                },
-                {
-                    "field": "columns",
-                    "value": "1"
                 }
             ]
         },
