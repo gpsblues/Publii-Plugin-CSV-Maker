@@ -11,6 +11,8 @@ This plugin enables you to effortlessly create and edit **simple CSV files** wit
 
 **Note:** This is a manual-entry-only solution - bulk import functionality is not included.
 
+If you use this plugin, consider giving it a ⭐ on GitHub: it's the only way for me to know if this work is appreciated. Thank you!
+
 ## Installation and Usage
 
 1. Download the `.zip` file of the latest plugin version from the [release page](https://github.com/gpsblues/Publii-Plugin-CSV-Maker/releases/).
