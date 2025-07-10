@@ -3,7 +3,7 @@
     "description": "This plugin create a CSV file in Publii root or subfolder.",
     "license": "GPL-3.0",
     "author": "Vittorio Ramponi - www.mywebpassion.it",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "scope": "site",
     "minimumPubliiVersion": "0.40.0",
     "usePluginSettingsView": false,
@@ -26,7 +26,7 @@
             "name": "path",
             "label": "Save position",
             "group": "Settings",
-            "value": "[ROOT-FILES]/",
+            "value": "",
             "note": "Specify the folder where the file will be saved.",
             "type": "select",
             "options": [
@@ -35,7 +35,7 @@
                     "value": "[ROOT-FILES]/"
                 },
                 {
-                    "label": "Plugin ( /media/plugin/csv-maker )",
+                    "label": "Plugin ( Root/media/plugin/csv-maker )",
                     "value": ""
                 }
             ]
@@ -79,24 +79,24 @@
             "note": "Specify the number of columns in the file."
         },
         {
-            "name": "csvDataCompact",
+            "name": "csvData",
             "label": " ",
             "group": "CSV data",
             "type": "repeater",
             "value": [],
-            "hasEmptyState": false,
+            "hasEmptyState": true,
             "hideLabels": false,
             "translations": {
                 "addItem": "Add row",
                 "duplicateItem": "Duplicate",
-                "emptyState": "Click the button below to add a new product to your slider.",
+                "emptyState": "Click the button below to add first row!",
                 "removeItem": "Delete row"
             },
             "note": "",
             "structure": [
                 {
                     "name": "data1",
-                    "label": "1",
+                    "label": "#1",
                     "type": "textarea",
                     "cols": 1,
                     "value": "",
@@ -104,7 +104,7 @@
                 },
                 {
                     "name": "data2",
-                    "label": "2",
+                    "label": "#2",
                     "type": "textarea",
                     "cols": 1,
                     "value": "",
@@ -119,7 +119,7 @@
                 },
                 {
                     "name": "data3",
-                    "label": "3",
+                    "label": "#3",
                     "type": "textarea",
                     "cols": 1,
                     "value": "",
@@ -134,7 +134,7 @@
                 },
                 {
                     "name": "data4",
-                    "label": "4",
+                    "label": "#4",
                     "type": "textarea",
                     "cols": 1,
                     "value": "",
@@ -149,7 +149,7 @@
                 },
                 {
                     "name": "data5",
-                    "label": "5",
+                    "label": "#5",
                     "type": "textarea",
                     "cols": 1,
                     "value": "",
@@ -164,7 +164,7 @@
                 },
                 {
                     "name": "data6",
-                    "label": "6",
+                    "label": "#6",
                     "type": "textarea",
                     "cols": 1,
                     "value": "",
@@ -179,7 +179,7 @@
                 },
                 {
                     "name": "data7",
-                    "label": "7",
+                    "label": "#7",
                     "type": "textarea",
                     "cols": 1,
                     "value": "",
@@ -194,7 +194,7 @@
                 },
                 {
                     "name": "data8",
-                    "label": "8",
+                    "label": "#8",
                     "type": "textarea",
                     "cols": 1,
                     "value": "",
@@ -209,7 +209,7 @@
                 },
                 {
                     "name": "data9",
-                    "label": "9",
+                    "label": "#9",
                     "type": "textarea",
                     "cols": 1,
                     "value": "",
@@ -224,7 +224,7 @@
                 },
                 {
                     "name": "data10",
-                    "label": "10",
+                    "label": "#10",
                     "type": "textarea",
                     "cols": 1,
                     "value": "",
@@ -246,24 +246,24 @@
             ]
         },
         {
-            "name": "csvDataFull",
+            "name": "csvData",
             "label": " ",
             "group": "CSV data",
             "type": "repeater",
             "value": [],
-            "hasEmptyState": false,
+            "hasEmptyState": true,
             "hideLabels": false,
             "translations": {
                 "addItem": "Add row",
                 "duplicateItem": "Duplicate",
-                "emptyState": "Click the button below to add a new product to your slider.",
+                "emptyState": "Click the button below to add first row!",
                 "removeItem": "Delete row"
             },
             "note": "",
             "structure": [
                 {
                     "name": "data1",
-                    "label": "1",
+                    "label": "#1",
                     "type": "textarea",
                     "cols": 1,
                     "value": "",
@@ -271,7 +271,7 @@
                 },
                 {
                     "name": "data2",
-                    "label": "2",
+                    "label": "#2",
                     "type": "textarea",
                     "cols": 1,
                     "value": "",
@@ -286,7 +286,7 @@
                 },
                 {
                     "name": "data3",
-                    "label": "3",
+                    "label": "#3",
                     "type": "textarea",
                     "cols": 1,
                     "value": "",
@@ -301,7 +301,7 @@
                 },
                 {
                     "name": "data4",
-                    "label": "4",
+                    "label": "#4",
                     "type": "textarea",
                     "cols": 1,
                     "value": "",
@@ -316,7 +316,7 @@
                 },
                 {
                     "name": "data5",
-                    "label": "5",
+                    "label": "#5",
                     "type": "textarea",
                     "cols": 1,
                     "value": "",
@@ -331,7 +331,7 @@
                 },
                 {
                     "name": "data6",
-                    "label": "6",
+                    "label": "#6",
                     "type": "textarea",
                     "cols": 1,
                     "value": "",
@@ -346,7 +346,7 @@
                 },
                 {
                     "name": "data7",
-                    "label": "7",
+                    "label": "#7",
                     "type": "textarea",
                     "cols": 1,
                     "value": "",
@@ -361,7 +361,7 @@
                 },
                 {
                     "name": "data8",
-                    "label": "8",
+                    "label": "#8",
                     "type": "textarea",
                     "cols": 1,
                     "value": "",
@@ -376,7 +376,7 @@
                 },
                 {
                     "name": "data9",
-                    "label": "9",
+                    "label": "#9",
                     "type": "textarea",
                     "cols": 1,
                     "value": "",
@@ -391,7 +391,7 @@
                 },
                 {
                     "name": "data10",
-                    "label": "10",
+                    "label": "#10",
                     "type": "textarea",
                     "cols": 1,
                     "value": "",
@@ -403,11 +403,6 @@
                             "type": "externalOption"
                         }
                     ]
-                },
-                {
-                    "name": "separator",
-                    "label": ":::::",
-                    "type": "separator"
                 }
             ],
             "dependencies": [
@@ -418,6 +413,13 @@
             ]
         },
         {
+            "name": "separator",
+            "label": "",
+            "group": "CSV data",
+            "note": "",
+            "type": "separator"
+        },
+        {
             "name": "compact",
             "label": "Compact view",
             "group": "CSV data",
@@ -425,14 +427,15 @@
             "value": true,
             "type": "checkbox"
         },
+
         {
             "name": "note",
-            "label": "Note",
-            "group": "CSV data",
-            "note": "Field for notes",
+            "label": "",
+            "group": "Info",
+            "note": "Field for notes (internal use).",
             "value": "",
             "type": "textarea",
-            "rows": "3"
+            "rows": "2"
         }
     ]
 }
