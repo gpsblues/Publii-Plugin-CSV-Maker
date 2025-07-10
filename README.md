@@ -1,7 +1,7 @@
 # Publii Plugin: CSV Maker
 A plugin to generate and manually edit custom CSV files directly from the Publii interface.
 
-<p><img height="100" alt="publii plugin" title="Plugin icons" src="https://raw.githubusercontent.com/gpsblues/Publii-Plugin-CSV-Maker/refs/heads/main/.assets/thumbnail.svg"></p>
+<p><img height="100" style="height:100px;" alt="publii plugin" title="Plugin icons" src="https://raw.githubusercontent.com/gpsblues/Publii-Plugin-CSV-Maker/refs/heads/main/.assets/thumbnail.svg"></p>
 
 ## Features
 
@@ -10,6 +10,8 @@ A plugin to generate and manually edit custom CSV files directly from the Publii
 This plugin enables you to effortlessly create and edit **simple CSV files** with various customization options. **Designed primarily for basic data structures** like geographical coordinates (name, latitude, longitude) for small maps or similar simple datasets, it supports **up to 10 columns** and **unlimited rows** of manually entered data. Files can be saved either in your site's root directory or in the plugin's dedicated subfolder. The plugin automatically handles delimiter characters within fields, ensuring proper CSV formatting compliance.
 
 **Note:** This is a manual-entry-only solution - bulk import functionality is not included.
+
+If you use this plugin, consider giving it a ⭐ on GitHub: it's the only way for me to know if this work is appreciated. Thank you!
 
 ## Installation and Usage
 
